@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>701</width>
+    <height>420</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>yorimx雷电中控</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>260</y>
+     <width>691</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>新建行</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>序号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>模拟器名字</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>顶层窗口句柄</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string> 绑定窗口句柄</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>是否进入系统</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>进程PID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Vbox进程PID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>线程状态</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>当前配置</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>游戏账号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>人物等级</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>191</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="0">
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="text">
+       <string>窗口排序</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>开启模拟器</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>关闭模拟器</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="text">
+       <string>开启全部</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="text">
+       <string>重启模拟器</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="text">
+       <string>刷新模拟器</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>200</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>开启数量</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_11">
+      <property name="text">
+       <string>确认</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>30</y>
+     <width>211</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="1">
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="text">
+       <string>暂停游戏</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="text">
+       <string>开启游戏</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="text">
+       <string>游戏全开</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="text">
+       <string>游戏全部停止</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>refresh_emulate()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>199</x>
+     <y>120</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>194</x>
+     <y>17</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>start_emulate()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>37</x>
+     <y>55</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>21</x>
+     <y>10</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>stop_emulate()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>172</x>
+     <y>57</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>64</x>
+     <y>4</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>restart_emulate()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>16</x>
+     <y>108</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>9</x>
+     <y>127</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>sort_emulate()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>53</x>
+     <y>159</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>23</x>
+     <y>192</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>start_all_emulate()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>169</x>
+     <y>160</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>219</x>
+     <y>172</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_11</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>start_num_emulate()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>205</x>
+     <y>232</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>234</x>
+     <y>221</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>start_game()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>268</x>
+     <y>69</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>12</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>stop_game()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>383</x>
+     <y>74</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>443</x>
+     <y>24</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_9</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>start_all_game()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>281</x>
+     <y>135</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>379</x>
+     <y>185</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_10</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>stop_all_game()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>406</x>
+     <y>136</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>463</x>
+     <y>147</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>refresh_emulate()</slot>
+  <slot>start_emulate()</slot>
+  <slot>stop_emulate()</slot>
+  <slot>restart_emulate()</slot>
+  <slot>sort_emulate()</slot>
+  <slot>start_all_emulate()</slot>
+  <slot>start_num_emulate()</slot>
+  <slot>start_game()</slot>
+  <slot>stop_game()</slot>
+  <slot>start_all_game()</slot>
+  <slot>stop_all_game()</slot>
+ </slots>
+</ui>
